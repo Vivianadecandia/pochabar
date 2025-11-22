@@ -43,6 +43,8 @@ nav a.activo, nav a:hover {
   border-bottom: 2px solid #E84429;
 }
 
+.eventos-especiales { padding: 40px }
+
 .contenido { padding: 40px }
 .contenido .texto { float: left; width: 50%; }
 .contenido .imagen { float: right; width: 45%; text-align: right; }
@@ -83,6 +85,7 @@ footer {
   overflow: hidden;
   margin: 15px;
   vertical-align: top;
+  align-items: stretch;
 }
 
 .imagen-plato img {
@@ -96,6 +99,8 @@ footer {
   padding: 15px 12px;
   text-align: left;
   color: #2b2b2b;
+  align-items: stretch;
+  
 }
 
 .contenido-plato .nombre {
